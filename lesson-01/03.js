@@ -18,5 +18,3 @@ while(count >= 0) {
   count--;
 }
 
-console.log(sum);
-

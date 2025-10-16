@@ -13,5 +13,3 @@ while (count > 0) {
   factorial *= count;
   count--;
 }
-
-console.log(factorial);
