@@ -9,7 +9,7 @@
 
 let dice1 = Math.ceil(Math.random() * 6);
 let dice2 = Math.ceil(Math.random() * 6);
-let isWinningDouble = ((dice1 === dice2) && (dice1+dice2) > 3) ? true : false;
+let isWinningDouble = ((dice1 === dice2) && dice1 > 3) ? true : false;
 
 
 // console.log('Первый бросок: ' + dice1)
