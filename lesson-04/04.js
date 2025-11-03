@@ -19,5 +19,3 @@ function doubleEachCharacter(str) {
     }
     return newStr;
 }
-
-console.log(doubleEachCharacter('hello'));
