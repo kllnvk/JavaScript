@@ -33,7 +33,7 @@ nextButton.addEventListener("click", function () {
 });
 prevButton.addEventListener("click", function () {
   if(index <= 0){
-    index = 3;
+    index = WEB_TECH_IMAGES.length;
   }
   index--;
   imageBlock.setAttribute("src", WEB_TECH_IMAGES[index]);
