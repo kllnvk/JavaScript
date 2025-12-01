@@ -10,7 +10,7 @@
 */
 
 function truncate(str, maxLength) {
-  return str.lenght > maxLength ? str.slice(0, maxLength) + "..." : str;
+  return str.length > maxLength ? str.slice(0, maxLength) + "..." : str;
 }
 
 //console.log(truncate("Короткая строка", 20));
